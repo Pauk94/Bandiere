@@ -1,0 +1,167 @@
+  *{
+    padding: 0;
+    margin: 0;
+    background-color: #DAD3BE;
+  }
+
+  h1{
+    color: #254336;
+  }
+
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .palau{
+    width: 300px;
+    height: 200px;
+    background: lightblue;
+    border: 1px solid black;
+  }
+
+  .palau>div{
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: relative;
+    top: 30px;
+    left: 50px;
+  }
+
+  .japan{
+    width: 300px;
+    height: 200px;
+    background: white;
+    border: 1px solid black;
+  }
+
+  .japan >div{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    top: 30px;
+    left: 50px;
+  }
+
+  .ukraine{
+    border: 1px solid black;
+  }
+
+  .ukraine>div{
+    width: 300px;
+    height: 50px;
+    background: blue;
+    border-top: 50px solid blue;
+    border-bottom: 100px solid yellow;
+  }
+
+  .latvia{
+    border: 1px solid black;
+  }
+
+  .latvia >div{
+    width: 300px;
+    height: 50px;
+    background: rgb(255, 255, 255);
+    border-top: 100px solid red;
+    border-bottom: 100px solid red;
+  }
+
+  .nigeria{
+    border: 1px solid black;
+  }
+
+  .nigeria >div{
+    width: 100px;
+    height: 200px;
+    background: rgb(255, 255, 255);
+    border-left: 100px solid rgb(1, 105, 1);
+    border-right: 100px solid rgb(1, 105, 1);
+  }
+
+  .peru{
+    border: 1px solid black;
+  }
+
+  .peru >div{
+    width: 100px;
+    height: 200px;
+    background: rgb(255, 255, 255);
+    border-left: 100px solid red;
+    border-right: 100px solid red;
+  }
+
+  .poland{
+    border: 1px solid black;
+  }
+
+  .poland>div{
+    width: 300px;
+    height: 50px;
+    background: white;
+    border-top: 50px solid white;
+    border-bottom: 100px solid red;
+  }
+  .monaco{
+    border: 1px solid black;
+  }
+
+  .monaco>div{
+    width: 300px;
+    height: 50px;
+    background: red;
+    border-top: 50px solid red;
+    border-bottom: 100px solid white;
+  }
+
+  .indonesia{
+    border: 1px solid black;
+  }
+
+  .indonesia>div{
+    width: 300px;
+    height: 50px;
+    background: red;
+    border-top: 50px solid red;
+    border-bottom: 100px solid white;
+  }
+
+  .austria{
+    border: 1px solid black;
+  }
+
+  .austria >div{
+    width: 300px;
+    height: 75px;
+    background: rgb(255, 255, 255);
+    border-top: 100px solid red;
+    border-bottom: 100px solid red;
+  }
+
+  .bangladesh{
+    width: 300px;
+    height: 200px;
+    background: green;
+    border: 1px solid black;
+  }
+
+  .bangladesh >div{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    top: 30px;
+    left: 50px;
+  }
+
+  div>div{
+    text-align: center;
+    color: #6B8A7A;
+  }
